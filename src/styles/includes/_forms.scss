@@ -1,0 +1,20 @@
+.form-group {
+
+  &.mod-required {
+
+    > label {
+
+      &:after {
+        content: " *";
+        color: red;
+      }
+    }
+  }
+}
+
+.nav-tabs {
+
+  .nav-item {
+    pointer-events: none;
+  }
+}

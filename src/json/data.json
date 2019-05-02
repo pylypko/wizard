@@ -1,0 +1,213 @@
+[{
+  "title": "Customer",
+  "description": "Contact information, shipping address",
+  "form": {
+    "id": "userDataForm",
+    "fields": [
+      {
+        "id": "input_email",
+        "name": "input_email",
+        "type": "email",
+        "label": "Email",
+        "placeholder": "Enter customer's email",
+        "message": "We won't share your email.",
+        "isRequired": true,
+        "size": ""
+      },
+      {
+        "id": "check_agree_mail",
+        "name": "check_agree_mail",
+        "type": "checkbox",
+        "label": "Subscribe to news and updates",
+        "message": "We will send you updates 2 times per month.",
+        "isRequired": false
+      },
+      { 
+        "id": "input_first_name",
+        "name": "input_first_name",
+        "type": "text",
+        "label": "First name",
+        "placeholder": "Enter customer's first name",
+        "message": "First name",
+        "isRequired": true,
+        "size": "sm-6"
+      },
+      { 
+        "id": "input_last_name",
+        "name": "input_last_name",
+        "type": "text",
+        "label": "Last name",
+        "placeholder": "Enter customer's last name",
+        "message": "Last name",
+        "isRequired": true,
+        "size": "sm-6"
+      },
+      { 
+        "id": "input_address",
+        "name": "input_address",
+        "type": "text",
+        "label": "Address",
+        "placeholder": "Enter customer's address",
+        "message": "Address",
+        "isRequired": true,
+        "size": ""
+      },
+      { 
+        "id": "input_address_details",
+        "name": "input_address_details",
+        "type": "text",
+        "label": "Apartment, suite, etc.",
+        "placeholder": "Enter address details",
+        "message": "Apartment, suite, etc. (optional)",
+        "isRequired": false,
+        "size": ""
+      },
+      { 
+        "id": "input_city",
+        "name": "input_city",
+        "type": "text",
+        "label": "City",
+        "placeholder": "Enter city",
+        "message": "City",
+        "isRequired": true,
+        "size": ""
+      },
+      { 
+        "id": "select_country",
+        "name": "select_country",
+        "type": "select",
+        "label": "Country",
+        "options": {
+          "": "-- Select Country --",
+          "Ukraine": "Ukraine",
+          "Germany": "Germany",
+          "Sweden": "Sweden",
+          "USA": "USA",
+          "Great Britain": "Great Britain",
+          "Mexico": "Mexico",
+          "Italy": "Italy",
+          "Spain": "Spain",
+          "France": "France",
+          "Poland": "Poland"
+        },
+        "message": "City",
+        "isRequired": true,
+        "size": "sm-6"
+      },
+      { 
+        "id": "input_zip",
+        "name": "input_zip",
+        "type": "number",
+        "label": "Postal code",
+        "placeholder": "Enter postal code",
+        "message": "Postal code",
+        "isRequired": true,
+        "size": "sm-6"
+      },
+      {
+        "id": "check_create_account",
+        "name": "check_create_account",
+        "type": "checkbox",
+        "label": "Create account",
+        "message": "Create account with data provided, you'll get access to our loyalty program.",
+        "isRequired": false
+      },
+      {
+        "id": "check_agree_with_data",
+        "name": "check_agree_with_data",
+        "type": "checkbox",
+        "label": "I agree to the <a href=\"#\">terms</a>",
+        "message": "",
+        "isRequired": true
+      }
+    ]
+  }
+},
+{
+  "title": "Payment",
+  "description": "Payment card details",
+  "form": {
+    "id": "paymentDataForm",
+    "fields": [
+      {
+        "id": "input_card_number",
+        "name": "input_card_number",
+        "type": "number",
+        "label": "Card Number",
+        "placeholder": "Enter card number",
+        "message": "",
+        "isRequired": true,
+        "size": ""
+      },
+      {
+        "id": "input_card_name",
+        "name": "input_card_name",
+        "type": "text",
+        "label": "Cardholder first name",
+        "placeholder": "Enter cardholder's first name",
+        "message": "",
+        "isRequired": true,
+        "size": "sm-6"
+      },
+      {
+        "id": "input_card_lastname",
+        "name": "input_card_lastname",
+        "type": "text",
+        "label": "Cardholder last name",
+        "placeholder": "Enter cardholder's last name",
+        "message": "",
+        "isRequired": true,
+        "size": "sm-6"
+      },
+      {
+        "id": "input_card_year",
+        "name": "input_card_year",
+        "type": "number",
+        "label": "Card validity, year",
+        "placeholder": "Enter year",
+        "message": "",
+        "isRequired": true,
+        "size": "sm-4"
+      },
+      {
+        "id": "input_card_month",
+        "name": "input_card_month",
+        "type": "number",
+        "label": "Card validity, month",
+        "placeholder": "Enter month",
+        "message": "",
+        "isRequired": true,
+        "size": "sm-4"
+      },
+      {
+        "id": "input_card_code",
+        "name": "input_card_code",
+        "type": "number",
+        "label": "Card CVV/CVC code",
+        "placeholder": "Enter CVV/CVC code",
+        "message": "",
+        "isRequired": true,
+        "size": "sm-4"
+      }
+    ]
+  }
+},
+{
+  "title": "Delivery",
+  "description": "Delivery details",
+  "form": {
+    "id": "deliveryDataForm",
+    "fields": [
+      {
+        "id": "input_comment",
+        "name": "input_comment",
+        "type": "textarea",
+        "label": "Comment",
+        "placeholder": "Enter your comment here",
+        "message": "Some details that can help us deliver your parcel faster.",
+        "isRequired": false,
+        "size": ""
+      }
+    ]
+  }
+}]

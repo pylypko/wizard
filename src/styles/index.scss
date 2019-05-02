@@ -1,0 +1,11 @@
+@import '~bootstrap/scss/bootstrap.scss';
+
+
+@import 'includes/forms';
+
+$body-color: #000;
+
+body {
+  color: $body-color;
+  // font-family: monospace;s
+}
